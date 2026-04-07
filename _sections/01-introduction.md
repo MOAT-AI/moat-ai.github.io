@@ -2,27 +2,15 @@
 title: Introduction
 order: 1
 anchor: introduction
-summary: What is MOAT and what shared vision is this collaboration building toward?
+summary: MOAT's origin, purpose, and long-term direction.
 image_hint: Consider a non-copyrighted banner image, diagram, or future MOAT identity graphic that communicates mission and scope.
 ---
 ## What Is MOAT?
 
-The **Multi-Office Accelerator Team (MOAT) Collaboration** is a placeholder description for a cross-office effort focused on coordination, shared priorities, and sustained collaboration.
+The **Multi-Office Accelerator Team (MOAT) Collaboration** was created in 2025 as part of the U.S. Department of Energy Genesis Mission. It began as a seed effort within the Genesis Mission's Transformational AI Model Consortium, bringing together seven national laboratories to coordinate AI work for particle accelerators.
 
-This section should evolve into a concise statement of:
-
-- Why MOAT exists
-- Which communities and programs it connects
-- What problems it is intended to solve
-- How the collaboration is organized
+MOAT provides a shared framework for linking institutions, technical efforts, and emerging tools across the accelerator community. It is intended to support coordination, reuse, and joint progress in areas where AI can strengthen accelerator science, engineering, and operations.
 
 ## Vision
 
-Use this space to describe the long-term vision for MOAT. Example placeholder prompts:
-
-- Build a durable collaboration model across offices and institutions
-- Lower barriers between research, software, and operational teams
-- Create a shared environment for AI-enabled scientific acceleration
-- Improve visibility, reuse, and coordination across the ecosystem
-
-> Replace this placeholder copy with approved MOAT language once the collaboration vision statement is finalized.
+MOAT is building toward a durable collaboration model that connects laboratories, researchers, software efforts, and future partners around shared goals for AI-assisted accelerator work. In the near term, the collaboration aims to align proposals, technical priorities, and shared capabilities. Over time, it can lower barriers to collaboration and strengthen the national ecosystem for AI-enabled accelerator research and development.

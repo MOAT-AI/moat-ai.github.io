@@ -2,34 +2,18 @@
 title: AI-Enabled Ecosystem
 order: 4
 anchor: ai-ecosystem
-summary: Placeholder content for tools, workflows, research themes, and infrastructure that support AI-enabled collaboration.
+summary: Shared platforms, benchmarks, and emerging technical directions for AI-enabled accelerator collaboration.
 image_hint: A future ecosystem diagram, architecture sketch, or original background illustration would fit well here.
 ---
 ## Scope
 
-Use this section to describe the AI-enabled components of the MOAT ecosystem, such as:
+The MOAT collaboration is helping shape an AI-enabled ecosystem for particle accelerators built around shared experimentation, reusable tools, and stronger coordination across institutions. As this ecosystem takes shape, it should become easier to develop, compare, and apply AI-assisted approaches across accelerator use cases.
 
-- Shared models, services, or workflows
-- Scientific AI use cases
-- Data and compute infrastructure
-- Developer tooling and automation
-- Cross-team integration patterns
+## Core Elements
 
-## Placeholder Content Blocks
+- **Agentic platforms:** including efforts such as Osprey that support scientific and technical workflows.
+- **Virtual accelerators and digital twins:** shared environments for modeling, testing, and demonstration.
+- **Marketplaces and benchmarks:** common spaces for comparing models, skills, workflows, codes, and related assets.
+- **Shared interfaces and tooling:** more standardized ways to connect tools, teams, and technical components across the ecosystem.
 
-### Capabilities
-
-- Add a short list of current or planned AI-enabled capabilities
-- Note which capabilities are experimental versus operational
-
-### Infrastructure
-
-- Identify repositories, platforms, or environments that support the collaboration
-- Clarify ownership where relevant
-
-### Opportunities
-
-- Highlight future integration points
-- Record open questions, gaps, or roadmap themes
-
-> Replace this scaffold with project-specific details and approved architecture descriptions.
+These elements describe the collaboration's technical direction rather than a finished product stack. As MOAT evolves, this section can expand to highlight concrete repositories, services, benchmarks, and demonstrations.

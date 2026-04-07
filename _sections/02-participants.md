@@ -2,27 +2,19 @@
 title: Participants
 order: 2
 anchor: participants
-summary: Placeholder area for member offices, institutions, collaborators, and roles.
+summary: Founding laboratories and the collaboration's expected growth.
 image_hint: A future participant map, organization chart, or team collage could be placed here if created from approved original assets.
 ---
-## Current Placeholder Structure
+## Current Collaboration Footprint
 
-Populate this section with the people, offices, labs, or partner organizations participating in MOAT.
+MOAT began with participation from seven national laboratories:
 
-### Suggested Subsections
+- Lawrence Berkeley National Laboratory (LBNL)
+- Argonne National Laboratory (ANL)
+- Brookhaven National Laboratory (BNL)
+- Fermi National Accelerator Laboratory (FNAL)
+- Thomas Jefferson National Accelerator Facility (JLAB)
+- Oak Ridge National Laboratory (ORNL)
+- SLAC National Accelerator Laboratory (SLAC)
 
-- Core offices or sponsoring groups
-- Technical leads and points of contact
-- Research collaborators
-- Software and infrastructure contributors
-- Community partners
-
-### Example Placeholder Format
-
-| Group | Role in MOAT | Notes |
-| --- | --- | --- |
-| Office / Team A | Coordination | Add official description |
-| Office / Team B | Research | Add official description |
-| Partner / Lab C | Infrastructure | Add official description |
-
-> Replace this table with verified participant information before publication.
+This founding group provides the initial base for coordination within the Genesis Mission context. Over time, MOAT is expected to grow through additional participation from other national laboratories, academia, and industry.
