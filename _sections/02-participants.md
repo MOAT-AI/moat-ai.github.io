@@ -17,4 +17,4 @@ MOAT began with participation from seven national laboratories:
 - Oak Ridge National Laboratory (ORNL)
 - SLAC National Accelerator Laboratory (SLAC)
 
-This founding group provides the initial base for coordination within the Genesis Mission context. Over time, MOAT is expected to grow through additional participation from other national laboratories, academia, and industry.
+This founding group provides MOAT's initial base for coordination, shared planning, and technical alignment within the Genesis Mission context. Over time, the collaboration is expected to expand through additional participation from other national laboratories, academia, and industry.
