@@ -119,12 +119,41 @@ a {
     var(--surface);
 }
 
+.hero-logo-card,
+.hero-support-card,
 .placeholder-card,
 .section-placeholder {
   border: 1px dashed rgba(13, 92, 99, 0.45);
   border-radius: 22px;
   background: rgba(217, 236, 231, 0.55);
   padding: 1.1rem 1.2rem;
+}
+
+.hero-logo-card {
+  display: grid;
+  place-items: center;
+  min-height: 320px;
+  padding: 1.5rem;
+  background:
+    radial-gradient(circle at top, rgba(255, 255, 255, 0.85), rgba(217, 236, 231, 0.4)),
+    rgba(217, 236, 231, 0.55);
+}
+
+.hero-logo {
+  width: min(100%, 320px);
+  height: auto;
+  display: block;
+  object-fit: contain;
+}
+
+.hero-support-card h2 {
+  margin: 0 0 0.75rem;
+  font-size: 1.5rem;
+  line-height: 1.1;
+}
+
+.hero-support-card p:last-child {
+  margin-bottom: 0;
 }
 
 .placeholder-label,
