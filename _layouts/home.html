@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ page.title | default: site.title }}</title>
+    <meta name="description" content="{{ site.description }}">
+    <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
+  </head>
+  <body>
+    {% assign ordered_sections = site.sections | sort: "order" %}
+    <div class="page-shell">
+      <header class="site-header">
+        <a class="site-mark" href="{{ '/' | relative_url }}">MOAT</a>
+        <nav class="site-nav" aria-label="Primary">
+          {% for section in ordered_sections %}
+            <a href="#{{ section.anchor }}">{{ section.title }}</a>
+          {% endfor %}
+        </nav>
+      </header>
+
+      <main>
+        <section class="hero">
+          <div class="hero-copy">
+            <p class="eyebrow">GitHub Pages Homepage Scaffold</p>
+            <h1>{{ page.hero_title }}</h1>
+            <p class="hero-tagline">{{ page.hero_tagline }}</p>
+            <p class="hero-note">{{ page.hero_note }}</p>
+          </div>
+
+          <aside class="hero-visual" aria-label="Artwork placeholder">
+            <div class="placeholder-card">
+              <p class="placeholder-label">Image Placeholder</p>
+              <h2>MOAT Logo</h2>
+              <p>Insert an original or properly licensed MOAT mark here.</p>
+            </div>
+            <div class="placeholder-card">
+              <p class="placeholder-label">Image Placeholder</p>
+              <h2>Background / Team Visual</h2>
+              <p>Optional hero background or collaboration artwork can be added later.</p>
+            </div>
+          </aside>
+        </section>
+
+        <section class="overview-grid" aria-label="Quick links">
+          {% for section in ordered_sections %}
+            <a class="overview-card" href="#{{ section.anchor }}">
+              <p class="overview-index">0{{ forloop.index }}</p>
+              <h2>{{ section.title }}</h2>
+              {% if section.summary %}
+                <p>{{ section.summary }}</p>
+              {% endif %}
+            </a>
+          {% endfor %}
+        </section>
+
+        {% for section in ordered_sections %}
+          <section class="content-panel" id="{{ section.anchor }}">
+            <div class="panel-heading">
+              <p class="eyebrow">Section {{ forloop.index }}</p>
+              <h2>{{ section.title }}</h2>
+              {% if section.summary %}
+                <p class="panel-summary">{{ section.summary }}</p>
+              {% endif %}
+            </div>
+
+            <div class="panel-body">
+              {{ section.content | markdownify }}
+            </div>
+
+            {% if section.image_hint %}
+              <div class="section-placeholder">
+                <p class="placeholder-label">Suggested Visual Slot</p>
+                <p>{{ section.image_hint }}</p>
+              </div>
+            {% endif %}
+          </section>
+        {% endfor %}
+      </main>
+    </div>
+  </body>
+</html>

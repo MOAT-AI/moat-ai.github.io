@@ -1,0 +1,16 @@
+title: MOAT Collaboration
+description: Multi-Office Accelerator Team collaboration homepage
+url: ""
+baseurl: ""
+markdown: kramdown
+permalink: pretty
+
+collections:
+  sections:
+    output: false
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: home
