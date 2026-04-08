@@ -83,7 +83,7 @@
         </section>
 
         {% for section in ordered_sections %}
-          <section class="content-panel {% cycle 'panel-media-right', 'panel-media-left' %}" id="{{ section.anchor }}">
+          <section class="content-panel section-{{ section.anchor }} {% cycle 'panel-media-right', 'panel-media-left' %}" id="{{ section.anchor }}">
             <div class="panel-copy">
               <div class="panel-heading">
                 <p class="eyebrow">Section {{ forloop.index }}</p>
