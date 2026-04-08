@@ -7,3 +7,9 @@ vendor/bundle/
 vendor/cache/
 vendor/gems/
 vendor/ruby/
+.DS_Store
+Vision/
+Pictures/*
+!Pictures/featured/
+!Pictures/featured/*
+output/

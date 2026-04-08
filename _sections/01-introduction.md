@@ -3,7 +3,9 @@ title: Introduction
 order: 1
 anchor: introduction
 summary: MOAT's origin, purpose, and long-term direction.
-image_hint: Consider a non-copyrighted banner image, diagram, or future MOAT identity graphic that communicates mission and scope.
+image_path: /Pictures/featured/moat-network-map.png
+image_alt: MOAT network map connecting accelerator laboratories across the United States.
+image_caption: A working MOAT framing graphic that situates the collaboration across laboratories and facilities.
 ---
 ## What Is MOAT?
 

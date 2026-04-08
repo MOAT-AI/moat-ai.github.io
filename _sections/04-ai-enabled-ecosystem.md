@@ -3,7 +3,9 @@ title: AI-Enabled Ecosystem
 order: 4
 anchor: ai-ecosystem
 summary: Shared platforms, benchmarks, and emerging technical directions for AI-enabled accelerator collaboration.
-image_hint: A future ecosystem diagram, architecture sketch, or original background illustration would fit well here.
+image_path: /Pictures/featured/moat-agent-ecosystem.png
+image_alt: Diagram of an agent-centered accelerator workflow connecting knowledge, tools, and physical interfaces.
+image_caption: A concept sketch for the type of connected AI tooling ecosystem MOAT is exploring.
 ---
 ## Scope
 

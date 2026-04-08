@@ -26,20 +26,45 @@
             <h1>{{ page.hero_title }}</h1>
             <p class="hero-tagline">{{ page.hero_tagline }}</p>
             <p class="hero-note">{{ page.hero_note }}</p>
+            <div class="hero-metrics" aria-label="MOAT highlights">
+              <div class="metric-card">
+                <p class="metric-value">7</p>
+                <p class="metric-label">Founding national labs</p>
+              </div>
+              <div class="metric-card">
+                <p class="metric-value">2025</p>
+                <p class="metric-label">Launch year</p>
+              </div>
+              <div class="metric-card">
+                <p class="metric-value">AI + Ops</p>
+                <p class="metric-label">Design, operations, and shared tooling</p>
+              </div>
+            </div>
           </div>
 
           <aside class="hero-visual" aria-label="MOAT visual identity">
-            <div class="hero-logo-card">
+            <figure class="hero-image-card">
               <img
-                class="hero-logo"
-                src="{{ '/MOAT-logo.png' | relative_url }}"
-                alt="MOAT Collaboration logo"
+                class="hero-image"
+                src="{{ '/Pictures/featured/moat-network-map.png' | relative_url }}"
+                alt="MOAT map graphic connecting accelerator laboratories across the United States"
               >
-            </div>
+            </figure>
             <div class="hero-support-card">
               <p class="placeholder-label">Collaboration Focus</p>
               <h2>Shared infrastructure for AI-enabled accelerator work</h2>
               <p>MOAT connects institutions, workflows, tools, and technical knowledge so progress can be reused across facilities and use cases.</p>
+            </div>
+            <div class="hero-gallery" aria-label="MOAT image gallery">
+              <figure class="hero-gallery-card">
+                <img src="{{ '/Pictures/featured/moat-collaboration-room.png' | relative_url }}" alt="MOAT collaborators gathered in front of a presentation screen">
+              </figure>
+              <figure class="hero-gallery-card">
+                <img src="{{ '/Pictures/featured/moat-control-room.png' | relative_url }}" alt="Accelerator operations room with multiple monitoring displays">
+              </figure>
+              <figure class="hero-gallery-card">
+                <img src="{{ '/Pictures/featured/moat-agent-ecosystem.png' | relative_url }}" alt="Concept diagram of an AI-enabled accelerator tooling ecosystem">
+              </figure>
             </div>
           </aside>
         </section>
@@ -57,7 +82,7 @@
         </section>
 
         {% for section in ordered_sections %}
-          <section class="content-panel" id="{{ section.anchor }}">
+          <section class="content-panel {% cycle 'panel-media-right', 'panel-media-left' %}" id="{{ section.anchor }}">
             <div class="panel-heading">
               <p class="eyebrow">Section {{ forloop.index }}</p>
               <h2>{{ section.title }}</h2>
@@ -70,11 +95,17 @@
               {{ section.content | markdownify }}
             </div>
 
-            {% if section.image_hint %}
-              <div class="section-placeholder">
-                <p class="placeholder-label">Suggested Visual Slot</p>
-                <p>{{ section.image_hint }}</p>
-              </div>
+            {% if section.image_path %}
+              <figure class="section-figure">
+                <img
+                  src="{{ section.image_path | relative_url }}"
+                  alt="{{ section.image_alt }}"
+                  loading="lazy"
+                >
+                {% if section.image_caption %}
+                  <figcaption>{{ section.image_caption }}</figcaption>
+                {% endif %}
+              </figure>
             {% endif %}
           </section>
         {% endfor %}

@@ -3,7 +3,9 @@ title: Participants
 order: 2
 anchor: participants
 summary: Founding laboratories and the collaboration's expected growth.
-image_hint: A future participant map, organization chart, or team collage could be placed here if created from approved original assets.
+image_path: /Pictures/featured/moat-control-room.png
+image_alt: Accelerator control room with operators and multiple monitoring displays.
+image_caption: A facility operations environment representative of the communities and workflows MOAT aims to connect.
 ---
 ## Current Collaboration Footprint
 

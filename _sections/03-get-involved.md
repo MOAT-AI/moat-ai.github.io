@@ -3,7 +3,9 @@ title: How To Get Involved
 order: 3
 anchor: get-involved
 summary: How prospective collaborators can participate as MOAT develops.
-image_hint: Optional space for a workflow graphic showing onboarding, contribution paths, or event participation.
+image_path: /Pictures/featured/moat-collaboration-room.png
+image_alt: MOAT collaborators gathered around a screen during an in-person discussion.
+image_caption: MOAT grows through shared discussions, demonstrations, and working sessions across teams.
 ---
 ## Ways To Participate
 
