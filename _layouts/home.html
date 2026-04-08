@@ -83,16 +83,18 @@
 
         {% for section in ordered_sections %}
           <section class="content-panel {% cycle 'panel-media-right', 'panel-media-left' %}" id="{{ section.anchor }}">
-            <div class="panel-heading">
-              <p class="eyebrow">Section {{ forloop.index }}</p>
-              <h2>{{ section.title }}</h2>
-              {% if section.summary %}
-                <p class="panel-summary">{{ section.summary }}</p>
-              {% endif %}
-            </div>
+            <div class="panel-copy">
+              <div class="panel-heading">
+                <p class="eyebrow">Section {{ forloop.index }}</p>
+                <h2>{{ section.title }}</h2>
+                {% if section.summary %}
+                  <p class="panel-summary">{{ section.summary }}</p>
+                {% endif %}
+              </div>
 
-            <div class="panel-body">
-              {{ section.content | markdownify }}
+              <div class="panel-body">
+                {{ section.content | markdownify }}
+              </div>
             </div>
 
             {% if section.image_path %}
