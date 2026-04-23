@@ -1,7 +1,18 @@
 # MOAT Homepage Content Design
 
 Date: 2026-04-07
-Status: Draft for review
+Status: Implemented in first pass, editorial review pending
+
+## Implementation Snapshot
+
+As of 2026-04-11, the homepage files have already moved beyond placeholder copy and now reflect a first-pass public narrative. The implementation remains consistent with this design's core intent:
+
+- confirmed origin in the 2025 Genesis Mission
+- seven founding laboratories named in the participants section
+- voluntary participation described without inventing onboarding channels
+- ecosystem language framed as emerging direction rather than completed product surface
+
+Follow-on work should focus on editorial refinement, public-readiness review, and information architecture decisions rather than re-scoping the initial content strategy.
 
 ## Objective
 
@@ -164,4 +175,4 @@ Before considering the content pass complete, check that:
 
 ## Implementation Notes
 
-The first implementation pass should edit only the homepage content files listed above. Layout and styling changes should be deferred unless the new copy reveals a clear usability issue that blocks comprehension.
+The first implementation pass has been completed in the homepage content files listed above. Layout and styling changes should still be deferred unless the approved copy reveals a clear usability issue that blocks comprehension.
